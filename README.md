@@ -18,10 +18,10 @@ The transaction involves three distinct bit-streams of data between START and ST
 
 This segment of the transaction serves as an instruction for the target device or peripheral, indicating the operation to be executed. The 8-bit value signifies commands such as read, write, specific function triggers, or control instructions tailored to the device's functionalities.
 
-* ### 24-Bit Address
+- ### 24-Bit Address
 
 The 24-bit address field specifies the memory location or register within the target device. This extended addressing range (24 bits) allows for addressing various memory locations or registers, providing flexibility for data access or manipulation.
 
-+ ### 32-Bit Data
+- ### 32-Bit Data
 
 This portion contains a 32-bit value that embodies the actual data payload transmitted or received during the transaction. The data could represent information intended for writing into a designated memory location or the content read from the specified address, carrying crucial information or payload data.
