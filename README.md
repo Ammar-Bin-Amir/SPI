@@ -8,7 +8,7 @@ The RTL design of SPI has been implemented by using verilog. The architecture is
 
 ## Architecture
 
-The master device initiates communication by generating clock pulses and selecting the slave device. The communication occurs via four essential lines: MOSI (Master Out Slave In) for data transmission from master to slave, MISO (Master In Slave Out) for data transmission from slave to master, SCLK (Serial Clock) for clock synchronization, and CS (Chip Select) for selecting the target slave device.
+The master device initiates communication by generating clock pulses and selecting the slave device. The communication occurs via four essential lines: MOSI (Master Out Slave In) for data transmission from master to slave, MISO (Master In Slave Out) for data transmission from slave to master, SCK (Serial Clock) for clock synchronization, and CS (Chip Select) for selecting the target slave device.
 
 ## Transaction Format
 
