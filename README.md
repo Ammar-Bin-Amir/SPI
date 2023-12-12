@@ -28,4 +28,4 @@ This portion contains a 32-bit value that embodies the actual data payload trans
 
 ## Reference
 
-[SPI Interface Specification](https://www.mouser.com/pdfdocs/tn15_spi_interface_specification.PDF)
+[SPI Specification](https://www.mouser.com/pdfdocs/tn15_spi_interface_specification.PDF)
