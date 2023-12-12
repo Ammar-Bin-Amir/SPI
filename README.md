@@ -25,3 +25,7 @@ The 24-bit address field specifies the memory location or register within the ta
 - ### 32-Bit Data
 
 This portion contains a 32-bit value that embodies the actual data payload transmitted or received during the transaction. The data could represent information intended for writing into a designated memory location or the content read from the specified address, carrying crucial information or payload data.
+
+## Reference
+
+[SPI Interface Specification](https://www.mouser.com/pdfdocs/tn15_spi_interface_specification.PDF)
